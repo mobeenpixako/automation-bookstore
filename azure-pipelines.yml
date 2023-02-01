@@ -7,8 +7,7 @@ trigger:
 - master
 - develop
 
-pool:
-  vmImage: ubuntu-latest
+pool: local
 
 steps:
 - task: ArchiveFiles@2
